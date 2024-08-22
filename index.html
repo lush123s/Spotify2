@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <span id="close">X</span>
+            <div class="home">
+                <img src="spotify.svg" alt="">
+                <ul>
+                    <li><img src="home.svg" alt="home">Home</li>
+                    <li><img src="search.svg" alt="search">Search</li>
+
+                </ul>
+            </div>
+            <div class="library">
+                <div class="heading">
+                    <h4><img src="library.svg" alt="">Your Library</h4>
+                    <img src="plus.svg" alt="">
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="first">
+                    <h4><i id="hamburger" class="ri-menu-line"></i></h4>
+                    <h4><i class="ri-arrow-left-wide-line"></i></h4>
+                    <h4><i class="ri-arrow-right-wide-line"></i></h4>
+                </div>
+                <div class="second">
+                    <button class="signup">Sign up</button>
+                    <button class="Login">Log in</button>
+                </div>
+            </div>
+            <div class="playlist">
+                <h1>Spotify Playlists</h1>
+                <div class="card-cont">
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div id="songInfo">
+
+                    </div>
+                    <div class="songsbtn">
+                        <h3 id="back"><i class="ri-skip-back-mini-fill"></i></h3>
+                        <h3 id="play"><i class="ri-play-line"></i></h3>
+                        <h3 id="forward"><i class="ri-skip-forward-mini-fill"></i></h3>
+                    </div>
+                    <div id="volume">
+                        <h4 id="h4"><i class="ri-volume-up-line"></i></h4>
+                        <input id="input" type="range">
+                    </div>
+                    <div id="duration">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
